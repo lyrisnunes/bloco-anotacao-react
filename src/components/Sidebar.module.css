@@ -1,0 +1,35 @@
+aside{
+   background: var(--gray-700);
+   padding: 1rem;
+   border-radius: 4px;
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.avatar{
+   height: 8rem;
+   border-radius: 50%;
+   border: 1px solid var(--gray-400);
+   padding: .3rem;
+}
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   gap: .8rem;
+}
+
+.profile span{
+   color: var(--gray-400);
+}
+
+.profile button{
+   background: var(--purple-100);
+   color: var(--white);
+   border-radius: 5px;
+   padding: .5rem;
+   cursor: pointer;
+}

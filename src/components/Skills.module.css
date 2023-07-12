@@ -1,0 +1,24 @@
+section{
+   background: var(--gray-700);
+   padding: 1rem;
+   border-radius: 5px;
+}
+
+section h2{
+   border-bottom: 1px solid var(--gray-400);
+   margin-bottom: 1rem;
+}
+
+section ul{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+
+section ul li{
+   background: var(--purple-100);
+   padding: .5rem;
+   border-radius: 5px;
+}

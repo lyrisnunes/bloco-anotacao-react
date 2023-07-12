@@ -1,0 +1,53 @@
+.post{
+   background: var(--gray-700);
+   border-radius: 8px;
+   padding: 1rem;
+}
+
+.post + .post{
+   margin-top: 1rem;
+}
+
+header > h3{
+   margin-bottom: .4rem;
+}
+
+
+
+.commentForm{
+   width: 100%;
+   margin-top: 1.5rem;
+   padding-top: 1.5rem;
+   border-top: 1px solid var(--gray-600);
+}
+
+.commentForm > strong{
+   line-height: 1.6;
+   color: var(--gray-100);
+}
+
+.commentForm textarea{
+   width: 100%;
+   background: var(--gray-900);
+   border: 0;
+   resize: none;
+   height: 6rem;
+   padding: 1rem;
+   border-radius: 8px;
+   color: var(--gray-100);
+   line-height: 1.4;
+   margin-top: 1rem;
+}
+
+.commentForm > button{
+   padding: .7rem 1.5rem;
+   border-radius: 8px;
+   background: var(--purple-100);
+   color: var(--white);
+   margin-top: .2rem;
+   cursor: pointer;
+}
+
+.commentList{
+   margin-top: 2rem;
+}

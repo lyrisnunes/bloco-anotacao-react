@@ -1,0 +1,26 @@
+.container{
+   max-width: 70rem;
+   margin: 2rem auto;
+   padding: 0 1rem;
+
+   display: grid;
+   grid-template-columns: 450px 1fr;
+   gap: 2rem;
+   align-items: flex-start;
+}
+
+main{
+   max-width: 70rem;
+   margin: 1rem auto;
+   padding: 0 1rem;
+}
+
+@media(max-width:860px){
+   html{
+      font-size: 75%;
+   }
+   .container{
+      grid-template-columns: 1fr;
+      gap: 1rem;
+   }
+}

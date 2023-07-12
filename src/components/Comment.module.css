@@ -1,0 +1,60 @@
+.comment > .avatar{
+   width: 5rem;
+   height: 5rem;
+   border-radius: 50%;
+   border: 2px solid var(--gray-400);
+   padding: .2rem;
+}
+
+.comment{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: .5rem;
+}
+
+.commentBox{
+   flex: 1;
+}
+
+.commentContent{
+   background: var(--gray-800);
+   border-radius: 5px;
+   padding: 1rem;
+   margin-bottom: .5rem;
+}
+
+.commentContent > header{
+   display: flex;
+   justify-content: space-between;
+}
+
+.commentContent p{
+   margin-top: .5rem;
+}
+
+.author{
+   display: flex;
+   flex-direction: column;
+}
+
+time{
+   color: var(--gray-400);
+   margin-top: .5rem;
+}
+
+header > button{
+   padding: .3rem 1.1rem;
+   border-radius: 5px;
+   background: var(--purple-100);
+   color: var(--white);
+   cursor: pointer;
+}
+
+footer > button{
+   padding: .5rem 1.5rem;
+   border-radius: 5px;
+   background: var(--purple-100);
+   color: var(--white);
+   cursor: pointer;  
+}

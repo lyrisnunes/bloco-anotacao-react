@@ -1,0 +1,14 @@
+.header{
+   background: var(--gray-800);
+   padding: 1rem 0;
+   text-align: center;
+}
+
+.header h3{
+   color: var(--white);
+   text-align: center;
+}
+
+.header h3 span{
+   color: var(--purple-100);
+}

@@ -1,0 +1,34 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   border: none;
+}
+
+:root{
+   --white: #ffffff;
+   --gray-100: #e1e1e6;
+   --gray-300: #c4c4cc;
+   --gray-400: #8d8d99;
+   --gray-600: #323228;
+   --gray-700: #29292e;
+   --gray-800: #202024;
+   --gray-900: #121214;
+
+   --purple-100:#996DFF;
+   --green-500: #00875f;
+}
+
+:focus{
+   outline: transparent;
+}
+
+body{
+   background: var(--gray-900);
+   color: var(--white);
+   font-weight: 400;
+   font-size: 1rem;
+}
