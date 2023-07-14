@@ -2,6 +2,7 @@ section{
    background: var(--gray-700);
    padding: 1rem;
    border-radius: 5px;
+   height: 100%;
 }
 
 section h2{

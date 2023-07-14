@@ -17,10 +17,16 @@ main{
 
 @media(max-width:860px){
    html{
-      font-size: 75%;
+      font-size: 80%;
    }
    .container{
       grid-template-columns: 1fr;
       gap: 1rem;
+   }
+}
+
+@media(max-width: 600px){
+   .container{
+      text-align: center;
    }
 }
