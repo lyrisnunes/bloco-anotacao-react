@@ -5,7 +5,7 @@ import styles from "./Post.module.css";
 // content : string
 
 export function Post({ content }) {
-  const [comments, setComment] = useState(["bom dia"]);
+  const [comments, setComment] = useState([]);
 
   const [newCommentext, setNewCommentText] = useState("");
 
